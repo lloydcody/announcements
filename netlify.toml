@@ -2,4 +2,5 @@
   for = "/*"
   [headers.values]
     X-Frame-Options = "ALLOW-FROM *"
+    Cross-Origin-Resource-Policy = "cross-origin"
     Content-Security-Policy = "frame-ancestors 'self' *"
